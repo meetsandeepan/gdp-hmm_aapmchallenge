@@ -233,9 +233,9 @@ class GetLoader(object):
 if __name__ == '__main__':
 
     cfig = {
-            'train_bs': 8,
+            'train_bs': 2,
              'val_bs': 2, 
-             'num_workers': 8, 
+             'num_workers': 2, 
              'csv_root': 'meta_files/meta_data.csv',
              'scale_dose_dict': 'meta_files/PTV_DICT.json',
              'pat_obj_dict': 'meta_files/Pat_Obj_DICT.json',

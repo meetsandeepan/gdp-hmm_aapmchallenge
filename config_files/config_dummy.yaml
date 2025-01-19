@@ -3,11 +3,11 @@
 loader_params: 
 
     'train_bs': 1
-    'val_bs': 4
+    'val_bs': 1
     'csv_root': 'meta_files/meta_data_dummy.csv'
     'scale_dose_dict': 'meta_files/PTV_DICT.json'
     'pat_obj_dict': 'meta_files/Pat_Obj_DICT.json'
-    'num_workers': 2
+    'num_workers': 1
 
     'down_HU': -1000
     'up_HU': 1000
